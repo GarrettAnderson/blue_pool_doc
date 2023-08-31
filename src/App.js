@@ -1,4 +1,4 @@
-import logo from "./assets/images/logo.png";
+import logo from "./assets/images/MartyLogo.png";
 import project1 from "./assets/images/project.jpeg";
 import project2 from "./assets/images/project2.jpeg";
 import project3 from "./assets/images/project3.jpeg";
