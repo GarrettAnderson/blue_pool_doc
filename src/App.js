@@ -1,4 +1,4 @@
-import logo from "./assets/images/MartyLogo.png";
+import logo from "./assets/images/logo.png";
 import project1 from "./assets/images/project.jpeg";
 import project2 from "./assets/images/project2.jpeg";
 import project3 from "./assets/images/project3.jpeg";
@@ -28,8 +28,12 @@ function App() {
           <section className="Hero-text">
             <h1>Marty's Pool Service</h1>
             <ul>
-              <li>Sorrento, FL</li>
-              <li>BLUEPOOLDOCTOR@GMAIL.COM</li>
+              <li>
+                Sorrento, FL <span>|</span>
+              </li>
+              <li>
+                BLUEPOOLDOCTOR@GMAIL.COM <span>|</span>
+              </li>
               <li>407-227-8733</li>
             </ul>
           </section>
