@@ -1,7 +1,7 @@
 {
   "name": "blue_pool_doc",
   "version": "0.1.0",
-  "homepage": "https://github.com/GarrettAnderson/blue_pool_doc",
+  "homepage": "https://github.com/GarrettAnderson/blue_pool_doc.git",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
