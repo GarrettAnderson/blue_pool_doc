@@ -111,6 +111,13 @@
   margin: 25px auto;
 }
 
+.Photo-gallery {
+  background-image: url("./assets/images/cia-gould-ripples-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 .Photos {
   line-height: 0;
   -webkit-column-count: 2; /* split it into 5 columns */
@@ -121,6 +128,7 @@
   column-gap: 5px;
   width: 80%;
   margin: 0 auto;
+  padding: 50px 0px;
 }
 
 .Project-photo {
