@@ -3,13 +3,20 @@
   background-color: #c9f2f5;
 }
 
+.Header-container {
+  background-image: url("./assets/images/clark-tai-nq18MYhxdGs-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 63%;
+  background-size: cover;
+}
+
 .App-header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: #35555f;
+  color: #fff;
   /* background-image: url("./assets/images/clark-tai-nq18MYhxdGs-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: 50% 63%;
@@ -38,12 +45,12 @@
 }
 
 .Hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, -0.5), rgba(0, 0, 0, 0.5)),
+  /* background-image: linear-gradient(rgba(0, 0, 0, -0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/images/content-pixie-VIh-B-bNZMc-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
+  background-size: cover; */
+  height: 380px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,4 +67,64 @@
   list-style: none;
   display: flex;
   color: #fff;
+}
+
+.Services ul {
+  list-style: none;
+  display: flex;
+  padding: 0px 10px;
+}
+
+.Service {
+  width: 33.3%;
+  margin: 0px 20px;
+}
+
+.Service-consultation {
+  /* background-image: linear-gradient(rgba(0, 0, 0, -0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/images/etienne-girardet-Xh6BpT-1tXo-unsplash.jpg"); */
+  background-image: url("./assets/images/etienne-girardet-Xh6BpT-1tXo-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.Service-restoration {
+  background-image: url("./assets/images/taylor-simpson-BK0y-LChktM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.Service-maintainance {
+  background-image: url("./assets/images/toni-cuenca-55MySYrKf5w-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.Service-details {
+  padding: 20px 30px;
+  color: #fff;
+  background-color: rgba(4, 66, 113, 0.75);
+  width: 60%;
+  margin: 25px auto;
+}
+
+.Photos {
+  line-height: 0;
+  -webkit-column-count: 2; /* split it into 5 columns */
+  -webkit-column-gap: 5px; /* give it a 5px gap between columns */
+  -moz-column-count: 5;
+  -moz-column-gap: 5px;
+  column-count: 2;
+  column-gap: 5px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Project-photo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
 }

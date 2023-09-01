@@ -1,4 +1,4 @@
-import logo from "./assets/images/logo.png";
+import logo from "./assets/images/MartyLogo.png";
 import project1 from "./assets/images/project.jpeg";
 import project2 from "./assets/images/project2.jpeg";
 import project3 from "./assets/images/project3.jpeg";
@@ -11,19 +11,19 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="Logo" alt="logo" />
-        <nav>
-          <ul>
-            <li>Consultation</li>
-            <li>Restoration</li>
-            <li>Maintainance</li>
-            <li>Gallery</li>
-            {/* <li>Contact Us</li> */}
-          </ul>
-        </nav>
-      </header>
-      <main>
+      <div className="Header-container">
+        <header className="App-header">
+          <img src={logo} className="Logo" alt="logo" />
+          <nav>
+            <ul>
+              <li>Consultation</li>
+              <li>Restoration</li>
+              <li>Maintainance</li>
+              <li>Gallery</li>
+              {/* <li>Contact Us</li> */}
+            </ul>
+          </nav>
+        </header>
         <section className="Hero-image">
           <section className="Hero-text">
             <h1>Marty's Pool Service</h1>
@@ -38,9 +38,11 @@ function App() {
             </ul>
           </section>
         </section>
+      </div>
+      <main>
         <section className="Services">
           <ul>
-            <li class="Service">
+            <li class="Service Service-consultation">
               <div className="Service-details">
                 <h3>Consultation</h3>
                 <p>
@@ -55,7 +57,7 @@ function App() {
                 </p>
               </div>
             </li>
-            <li class="Service">
+            <li class="Service Service-restoration">
               <div className="Service-details">
                 <h3>Restoration</h3>
                 <p>
@@ -70,7 +72,7 @@ function App() {
                 </p>
               </div>
             </li>
-            <li class="Service">
+            <li class="Service Service-maintainance">
               <div className="Service-details">
                 <h3>Maintainance</h3>
                 <p>
@@ -98,7 +100,7 @@ function App() {
           </section>
         </section>
         <footer>
-          <div>
+          {/* <div>
             <a href="">
               <img
                 src={project1}
@@ -106,7 +108,7 @@ function App() {
                 alt="facebook-icon"
               />
             </a>
-          </div>
+          </div> */}
           <div>
             <p>Back to Top</p>
           </div>
