@@ -31,12 +31,9 @@
 .App-header nav {
   width: 65%;
 }
-.App-header ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 10px;
+
+.Desktop-nav {
+  display: none;
 }
 
 .App-header li,
@@ -69,6 +66,7 @@ a {
 .Hero-text ul {
   list-style: none;
   display: flex;
+  flex-direction: column;
   color: #fff;
 }
 
@@ -79,12 +77,13 @@ a {
 .Services ul {
   list-style: none;
   display: flex;
+  flex-direction: column;
   padding: 0px 10px;
 }
 
 .Service {
-  width: 33.3%;
-  margin: 0px 20px;
+  width: 80%;
+  margin: 10px auto;
 }
 
 .Service-consultation {
@@ -127,11 +126,11 @@ a {
 
 .Photos {
   line-height: 0;
-  -webkit-column-count: 2; /* split it into 5 columns */
+  -webkit-column-count: 1; /* split it into 5 columns */
   -webkit-column-gap: 5px; /* give it a 5px gap between columns */
   -moz-column-count: 5;
   -moz-column-gap: 5px;
-  column-count: 2;
+  column-count: 1;
   column-gap: 5px;
   width: 80%;
   margin: 0 auto;
@@ -148,4 +147,35 @@ footer p {
   cursor: pointer;
   margin-bottom: 0;
   padding-bottom: 15px;
+  color: #044271;
+  font-weight: bolder;
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+  .Services ul {
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  .Desktop-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* .Services ul {
+    flex-direction: row;
+  } */
+
+  .Photos {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
 }

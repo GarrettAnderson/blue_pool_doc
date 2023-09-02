@@ -1,14 +1,21 @@
+import React, { useState } from "react";
 import logo from "./assets/images/MartyLogo.png";
+import HamburgerMenu from "./components/HamburgerMenu";
 import project1 from "./assets/images/project.jpeg";
 import project2 from "./assets/images/project2.jpeg";
 import project3 from "./assets/images/project3.jpeg";
 import project4 from "./assets/images/project4.jpeg";
 import project5 from "./assets/images/project5.jpeg";
 import project6 from "./assets/images/project6.jpeg";
-
 import "./App.css";
 
 function App() {
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+  const toggleHamburger = () => {
+    setHamburgerOpen(!hamburgerOpen);
+  };
+
   const scrollToTop = () => {
     console.log("scroll to top");
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -20,7 +27,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="Logo" alt="logo" />
           <nav>
-            <ul>
+            <ul className="Desktop-nav">
               <li>
                 <a href="#consultation">Consultation</a>
               </li>
@@ -35,18 +42,20 @@ function App() {
               </li>
               {/* <li>Contact Us</li> */}
             </ul>
+
+            {/* Hambuger menu on mobile view */}
+            <HamburgerMenu
+              onClick={toggleHamburger}
+              toggleHamburger={hamburgerOpen}
+            />
           </nav>
         </header>
         <section className="Hero-image">
           <section className="Hero-text">
             <h1>Marty's Pool Service</h1>
             <ul>
-              <li>
-                Sorrento, FL <span>&nbsp;|&nbsp;</span>
-              </li>
-              <li>
-                BLUEPOOLDOCTOR@GMAIL.COM <span>&nbsp;|&nbsp;</span>
-              </li>
+              <li>Sorrento, FL</li>
+              <li>BLUEPOOLDOCTOR@GMAIL.COM</li>
               <li>407-227-8733</li>
             </ul>
           </section>
@@ -55,7 +64,7 @@ function App() {
       <main>
         <section className="Services">
           <ul>
-            <li class="Service Service-consultation" id="consultation">
+            <li className="Service Service-consultation" id="consultation">
               <div className="Service-details">
                 <h3>Consultation</h3>
                 <p>
@@ -70,7 +79,7 @@ function App() {
                 </p>
               </div>
             </li>
-            <li class="Service Service-restoration" id="restoration">
+            <li className="Service Service-restoration" id="restoration">
               <div className="Service-details">
                 <h3>Restoration</h3>
                 <p>
