@@ -16,10 +16,18 @@ function App() {
           <img src={logo} className="Logo" alt="logo" />
           <nav>
             <ul>
-              <li>Consultation</li>
-              <li>Restoration</li>
-              <li>Maintainance</li>
-              <li>Gallery</li>
+              <li>
+                <a href="#consultation">Consultation</a>
+              </li>
+              <li>
+                <a href="#restoration">Restoration</a>
+              </li>
+              <li>
+                <a href="#maintainance">Maintainance</a>
+              </li>
+              <li>
+                <a href="#gallery">Gallery</a>
+              </li>
               {/* <li>Contact Us</li> */}
             </ul>
           </nav>
@@ -42,7 +50,7 @@ function App() {
       <main>
         <section className="Services">
           <ul>
-            <li class="Service Service-consultation">
+            <li class="Service Service-consultation" id="consultation">
               <div className="Service-details">
                 <h3>Consultation</h3>
                 <p>
@@ -57,7 +65,7 @@ function App() {
                 </p>
               </div>
             </li>
-            <li class="Service Service-restoration">
+            <li class="Service Service-restoration" id="restoration">
               <div className="Service-details">
                 <h3>Restoration</h3>
                 <p>
@@ -72,7 +80,7 @@ function App() {
                 </p>
               </div>
             </li>
-            <li class="Service Service-maintainance">
+            <li class="Service Service-maintainance" id="maintainance">
               <div className="Service-details">
                 <h3>Maintainance</h3>
                 <p>
@@ -89,7 +97,7 @@ function App() {
             </li>
           </ul>
         </section>
-        <section className="Photo-gallery">
+        <section className="Photo-gallery" id="gallery">
           <section className="Photos">
             <img src={project1} className="Project-photo" alt="project-photo" />
             <img src={project2} className="Project-photo" alt="project-photo" />

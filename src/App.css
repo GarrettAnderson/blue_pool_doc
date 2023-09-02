@@ -39,9 +39,12 @@
   padding-right: 10px;
 }
 
-.App-header li {
+.App-header li,
+a {
   font-weight: bolder;
   margin: 0px 15px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .Hero-image {
@@ -67,6 +70,10 @@
   list-style: none;
   display: flex;
   color: #fff;
+}
+
+.Hero-text li {
+  font-weight: bolder;
 }
 
 .Services ul {
