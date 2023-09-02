@@ -9,6 +9,11 @@ import project6 from "./assets/images/project6.jpeg";
 import "./App.css";
 
 function App() {
+  const scrollToTop = () => {
+    console.log("scroll to top");
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
   return (
     <div className="App">
       <div className="Header-container">
@@ -80,7 +85,7 @@ function App() {
                 </p>
               </div>
             </li>
-            <li class="Service Service-maintainance" id="maintainance">
+            <li className="Service Service-maintainance" id="maintainance">
               <div className="Service-details">
                 <h3>Maintainance</h3>
                 <p>
@@ -118,7 +123,7 @@ function App() {
             </a>
           </div> */}
           <div>
-            <p>Back to Top</p>
+            <p onClick={scrollToTop}>Back to Top</p>
           </div>
         </footer>
       </main>
