@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blue_pool_doc/static/css/main.83924d0d.css",
-    "main.js": "/blue_pool_doc/static/js/main.a2b8d8d7.js",
+    "main.css": "/blue_pool_doc/static/css/main.2fef7acc.css",
+    "main.js": "/blue_pool_doc/static/js/main.cf1ce7fa.js",
     "static/js/787.c97dd679.chunk.js": "/blue_pool_doc/static/js/787.c97dd679.chunk.js",
     "static/media/project.jpeg": "/blue_pool_doc/static/media/project.cfe2631ffdb1ca29ba5a.jpeg",
     "static/media/clark-tai-nq18MYhxdGs-unsplash.jpg": "/blue_pool_doc/static/media/clark-tai-nq18MYhxdGs-unsplash.1007a267ea2b23a86907.jpg",
@@ -16,12 +16,12 @@
     "static/media/project3.jpeg": "/blue_pool_doc/static/media/project3.bac1cd0f0b5de9a27e85.jpeg",
     "static/media/MartyLogo.png": "/blue_pool_doc/static/media/MartyLogo.872e8069a7516fb1c0df.png",
     "index.html": "/blue_pool_doc/index.html",
-    "main.83924d0d.css.map": "/blue_pool_doc/static/css/main.83924d0d.css.map",
-    "main.a2b8d8d7.js.map": "/blue_pool_doc/static/js/main.a2b8d8d7.js.map",
+    "main.2fef7acc.css.map": "/blue_pool_doc/static/css/main.2fef7acc.css.map",
+    "main.cf1ce7fa.js.map": "/blue_pool_doc/static/js/main.cf1ce7fa.js.map",
     "787.c97dd679.chunk.js.map": "/blue_pool_doc/static/js/787.c97dd679.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83924d0d.css",
-    "static/js/main.a2b8d8d7.js"
+    "static/css/main.2fef7acc.css",
+    "static/js/main.cf1ce7fa.js"
   ]
 }
