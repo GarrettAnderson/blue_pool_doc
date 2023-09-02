@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/blue_pool_doc/static/css/main.af181505.css",
-    "main.js": "/blue_pool_doc/static/js/main.83b962e1.js",
+    "main.css": "/blue_pool_doc/static/css/main.83924d0d.css",
+    "main.js": "/blue_pool_doc/static/js/main.a2b8d8d7.js",
     "static/js/787.c97dd679.chunk.js": "/blue_pool_doc/static/js/787.c97dd679.chunk.js",
-    "static/media/cia-gould-ripples-unsplash.jpg": "/blue_pool_doc/static/media/cia-gould-ripples-unsplash.c858636f8caa095d804b.jpg",
-    "static/media/toni-cuenca-55MySYrKf5w-unsplash.jpg": "/blue_pool_doc/static/media/toni-cuenca-55MySYrKf5w-unsplash.20f18bec03b808feb105.jpg",
-    "static/media/etienne-girardet-Xh6BpT-1tXo-unsplash.jpg": "/blue_pool_doc/static/media/etienne-girardet-Xh6BpT-1tXo-unsplash.edddb462d2f8c3698025.jpg",
-    "static/media/clark-tai-nq18MYhxdGs-unsplash.jpg": "/blue_pool_doc/static/media/clark-tai-nq18MYhxdGs-unsplash.f2ff3e866e6b413477f2.jpg",
-    "static/media/taylor-simpson-BK0y-LChktM-unsplash.jpg": "/blue_pool_doc/static/media/taylor-simpson-BK0y-LChktM-unsplash.e6eb6376da8dc071c429.jpg",
     "static/media/project.jpeg": "/blue_pool_doc/static/media/project.cfe2631ffdb1ca29ba5a.jpeg",
+    "static/media/clark-tai-nq18MYhxdGs-unsplash.jpg": "/blue_pool_doc/static/media/clark-tai-nq18MYhxdGs-unsplash.1007a267ea2b23a86907.jpg",
+    "static/media/cia-gould-ripples-unsplash.jpg": "/blue_pool_doc/static/media/cia-gould-ripples-unsplash.60a436cfa9b06bb9b12b.jpg",
+    "static/media/toni-cuenca-55MySYrKf5w-unsplash.jpg": "/blue_pool_doc/static/media/toni-cuenca-55MySYrKf5w-unsplash.d2cb3ad8b03b8d43955a.jpg",
+    "static/media/taylor-simpson-BK0y-LChktM-unsplash.jpg": "/blue_pool_doc/static/media/taylor-simpson-BK0y-LChktM-unsplash.ea3dff8307613d070c24.jpg",
     "static/media/project5.jpeg": "/blue_pool_doc/static/media/project5.6a4e78d11f9cd753d8c4.jpeg",
     "static/media/project4.jpeg": "/blue_pool_doc/static/media/project4.5c38d362e540071761fa.jpeg",
+    "static/media/etienne-girardet-Xh6BpT-1tXo-unsplash.jpg": "/blue_pool_doc/static/media/etienne-girardet-Xh6BpT-1tXo-unsplash.33455e608e3a7140aa46.jpg",
     "static/media/project6.jpeg": "/blue_pool_doc/static/media/project6.4456fdddf885cd4a3b9b.jpeg",
     "static/media/project2.jpeg": "/blue_pool_doc/static/media/project2.434ff900b5076f262397.jpeg",
     "static/media/project3.jpeg": "/blue_pool_doc/static/media/project3.bac1cd0f0b5de9a27e85.jpeg",
     "static/media/MartyLogo.png": "/blue_pool_doc/static/media/MartyLogo.872e8069a7516fb1c0df.png",
     "index.html": "/blue_pool_doc/index.html",
-    "main.af181505.css.map": "/blue_pool_doc/static/css/main.af181505.css.map",
-    "main.83b962e1.js.map": "/blue_pool_doc/static/js/main.83b962e1.js.map",
+    "main.83924d0d.css.map": "/blue_pool_doc/static/css/main.83924d0d.css.map",
+    "main.a2b8d8d7.js.map": "/blue_pool_doc/static/js/main.a2b8d8d7.js.map",
     "787.c97dd679.chunk.js.map": "/blue_pool_doc/static/js/787.c97dd679.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af181505.css",
-    "static/js/main.83b962e1.js"
+    "static/css/main.83924d0d.css",
+    "static/js/main.a2b8d8d7.js"
   ]
 }
