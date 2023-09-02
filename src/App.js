@@ -42,10 +42,10 @@ function App() {
             <h1>Marty's Pool Service</h1>
             <ul>
               <li>
-                Sorrento, FL <span>|</span>
+                Sorrento, FL <span>&nbsp;|&nbsp;</span>
               </li>
               <li>
-                BLUEPOOLDOCTOR@GMAIL.COM <span>|</span>
+                BLUEPOOLDOCTOR@GMAIL.COM <span>&nbsp;|&nbsp;</span>
               </li>
               <li>407-227-8733</li>
             </ul>

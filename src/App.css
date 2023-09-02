@@ -146,4 +146,5 @@ a {
 
 footer p {
   cursor: pointer;
+  margin-bottom: 0;
 }
