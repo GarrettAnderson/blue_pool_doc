@@ -41,9 +41,10 @@
   display: none;
 }
 
-.App-header li,
-a {
-  font-weight: bolder;
+.App-header li a,
+.Service-details h3 {
+  font-family: "Mel_Pooly_dafont", serif;
+  /* font-weight: bolder; */
   margin: 0px 15px;
   color: #fff;
   text-decoration: none;
@@ -171,6 +172,10 @@ footer p {
     align-items: center;
     justify-content: flex-end;
     padding-right: 10px;
+  }
+
+  .Hamburger {
+    display: none !important;
   }
 }
 

@@ -8,10 +8,12 @@ import project4 from "./assets/images/project4.jpeg";
 import project5 from "./assets/images/project5.jpeg";
 import project6 from "./assets/images/project6.jpeg";
 import "./App.css";
+import "./assets/styles/HamburgerMenu.css";
 
 function App() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
+  // open/close the hamburger menu
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
   };
@@ -44,10 +46,9 @@ function App() {
             </ul>
 
             {/* Hambuger menu on mobile view */}
-            <HamburgerMenu
-              onClick={toggleHamburger}
-              toggleHamburger={hamburgerOpen}
-            />
+            <div className="Hamburger-wrapper" onClick={toggleHamburger}>
+              <HamburgerMenu toggleHamburger={hamburgerOpen} />
+            </div>
           </nav>
         </header>
         <section className="Hero-image">

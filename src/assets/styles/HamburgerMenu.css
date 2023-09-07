@@ -1,4 +1,7 @@
-.hamburger {
+.Hamburger-wrapper {
+}
+
+.Hamburger {
   width: 2rem;
   height: 2rem;
   display: flex;
@@ -7,7 +10,9 @@
   z-index: 10;
 }
 
-.burger {
+/*
+
+.Burger {
   width: 2rem;
   height: 0.25rem;
   border-radius: 10px;
@@ -15,9 +20,9 @@
   transform-origin: 1px;
   transition: all 0.3s linear;
   margin: 3px 0px;
-}
+} */
 
 /* Hide the fourth horizontal bar in hamburger menu */
-.burger4 {
+/* .Burger4 {
   background-color: transparent;
-}
+} */

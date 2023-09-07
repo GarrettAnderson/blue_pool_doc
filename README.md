@@ -1,3 +1,7 @@
+# References
+
+- https://stackoverflow.com/questions/3245141/using-otf-fonts-on-web-browsers
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
