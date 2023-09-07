@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Mel_Pooly_dafont;
+  src: url("./assets/fonts/Mel_Pooly_dafont.otf");
+}
+
 .App {
   text-align: center;
   background-color: #c9f2f5;
@@ -58,6 +63,7 @@ a {
 }
 
 .Hero-text h1 {
+  font-family: "Mel_Pooly_dafont", serif;
   margin: 0 auto;
   font-size: 4rem;
   color: #fff;
