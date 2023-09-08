@@ -8,6 +8,8 @@
   display: inline-block;
   cursor: pointer;
   width: 4rem;
+  position: relative;
+  z-index: 20;
 }
 
 .bar1,
@@ -37,14 +39,14 @@
 
 .Hamburger {
   width: 92.5%;
-  height: 50vh;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-around;
   flex-flow: column nowrap;
   position: absolute;
   right: 0%;
-  bottom: 35%;
+  bottom: -2%;
   z-index: 10;
   list-style: none;
 }
