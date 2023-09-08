@@ -14,7 +14,16 @@ function App() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
   // open/close the hamburger menu
-  const toggleHamburger = () => {
+  const toggleHamburger = (e) => {
+    // if the current target has a class including the bar keyword, set the toggle class to its direct parent
+    if (e.target.classList.contains("bar")) {
+      console.log(e.target.parentNode);
+      e.target.parentNode.classList.toggle("change");
+    } else if (e.target.classList.contains("Hamburger-icon")) {
+      e.target.classList.toggle("change");
+    }
+    // otherwise if the current target has a class that is hamburger-icon, set that toggle class
+    // x.target.classList.toggle("change");
     setHamburgerOpen(!hamburgerOpen);
   };
 
@@ -46,7 +55,12 @@ function App() {
             </ul>
 
             {/* Hambuger menu on mobile view */}
-            <div className="Hamburger-wrapper" onClick={toggleHamburger}>
+            <div className="Hamburger-wrapper">
+              <div className="Hamburger-icon" onClick={toggleHamburger}>
+                <div className="bar1 bar"></div>
+                <div className="bar2 bar"></div>
+                <div className="bar3 bar"></div>
+              </div>
               <HamburgerMenu toggleHamburger={hamburgerOpen} />
             </div>
           </nav>
