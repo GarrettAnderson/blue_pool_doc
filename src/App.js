@@ -69,7 +69,7 @@ function App() {
           <section className="Hero-text">
             <h1>Marty's Pool Service</h1>
             <ul>
-              <li>Sorrento, FL</li>
+              <li>SORRENTO, FL</li>
               <li>BLUEPOOLDOCTOR@GMAIL.COM</li>
               <li>407-227-8733</li>
             </ul>

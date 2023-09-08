@@ -42,8 +42,7 @@
   display: none;
 }
 
-.App-header li a,
-.Service-details h3 {
+.App-header li a {
   font-family: "Mel_Pooly_dafont", serif;
   /* font-weight: bolder; */
   margin: 0px 15px;
@@ -97,7 +96,7 @@
 }
 
 .Service {
-  width: 80%;
+  width: 90%;
   margin: 10px auto;
 }
 
@@ -132,9 +131,17 @@
   margin: 25px auto;
 }
 
+.Service-details h3 {
+  font-family: "Mel_Pooly_dafont", serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
 .Service-details p {
   font-family: "Roboto", serif;
   font-weight: 500;
+  font-size: 1.25rem;
 }
 
 .Photo-gallery {
