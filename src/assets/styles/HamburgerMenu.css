@@ -40,7 +40,7 @@
 .Hamburger {
   width: 92.5%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(4, 66, 113, 0.5);
   display: flex;
   justify-content: space-around;
   flex-flow: column nowrap;
