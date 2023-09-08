@@ -182,7 +182,8 @@ footer p {
 }
 @media (min-width: 768px) {
   .Services ul {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 992px) {
@@ -194,15 +195,21 @@ footer p {
     padding-right: 10px;
   }
 
+  /* .Services ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  } */
+
   .Hamburger-wrapper {
     display: none !important;
   }
 }
 
 @media (min-width: 1200px) {
-  /* .Services ul {
-    flex-direction: row;
-  } */
+  .Services ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
   .Photos {
     -moz-column-count: 1;
