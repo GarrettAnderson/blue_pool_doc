@@ -5,7 +5,7 @@ function HamburgerMenu(props) {
   return (
     <ul
       className="Hamburger"
-      style={{ display: props.toggleHamburger ? "none" : "flex" }}
+      style={{ display: props.toggleHamburger ? "flex" : "none" }}
     >
       <li className="Burger Burger1">
         <a href="#consultation">Consultation</a>

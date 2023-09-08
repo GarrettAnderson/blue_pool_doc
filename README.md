@@ -1,6 +1,12 @@
 # References
 
 - https://stackoverflow.com/questions/3245141/using-otf-fonts-on-web-browsers
+- https://www.w3schools.com/howto/howto_css_menu_icon.asp
+- https://stackoverflow.com/questions/41092677/ternary-operator-on-style-with-react-js-es-6
+- https://stackoverflow.com/questions/14058590/positioning-element-regardless-of-window-size
+- https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea
+- https://www.w3schools.com/howto/howto_css_hero_image.asp
+- https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
 
 # Getting Started with Create React App
 
