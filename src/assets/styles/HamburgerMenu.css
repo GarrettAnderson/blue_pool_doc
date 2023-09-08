@@ -1,6 +1,9 @@
 .Hamburger-icon {
   display: inline-block;
   cursor: pointer;
+  position: absolute;
+  left: 90%;
+  bottom: 92%;
 }
 
 .bar1,

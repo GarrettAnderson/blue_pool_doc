@@ -174,7 +174,7 @@ footer p {
     padding-right: 10px;
   }
 
-  .Hamburger {
+  .Hamburger-wrapper {
     display: none !important;
   }
 }
