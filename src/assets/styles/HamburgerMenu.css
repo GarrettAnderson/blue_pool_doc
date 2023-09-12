@@ -38,19 +38,27 @@
 }
 
 .Hamburger {
-  width: 92.5%;
+  /* width: 92.5%; */
   height: 100vh;
-  background: rgba(4, 66, 113, 0.5);
+  background: rgba(4, 66, 113, 0.75);
   display: flex;
-  justify-content: space-around;
-  flex-flow: column nowrap;
+  justify-content: center;
+  flex-direction: column;
   position: absolute;
   right: 0%;
   bottom: -2%;
   z-index: 10;
   list-style: none;
+  align-items: end;
 }
 
+.Hamburger li {
+  margin: 10% 0%;
+}
+
+.Hamburger li a {
+  font-size: 1.75rem;
+}
 /*
 
 .Burger {
