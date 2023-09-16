@@ -83,14 +83,10 @@ function App() {
               <div className="Service-details">
                 <h3>Consultation</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  From repairs and renovations to general maintainance, we can
+                  cover all aspects of your aquatic environment needs. With over
+                  30 years of experience, Martin Simmermacher has extensive
+                  knowledge to answer any question that may arise.
                 </p>
               </div>
             </li>
@@ -98,14 +94,9 @@ function App() {
               <div className="Service-details">
                 <h3>Restoration</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Make your pool look like new with an over haul of your
+                  existing aquatic environment. Proceed with confidence knowing
+                  that your needs and desires will be met by an expert.
                 </p>
               </div>
             </li>
@@ -113,14 +104,10 @@ function App() {
               <div className="Service-details">
                 <h3>Maintainance</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Rest assured that your aquatic enviorments will be maintained
+                  with utmost care by our trained and experienced technicians.
+                  There is no condition that cannot be improved in order to
+                  bring your pool back to life and keep it pristine.
                 </p>
               </div>
             </li>
