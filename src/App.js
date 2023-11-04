@@ -9,6 +9,7 @@ import project6 from "./assets/images/project6.jpeg";
 import "./App.css";
 import "./assets/styles/HamburgerMenu.css";
 import Services from "./components/Services";
+import Gallery from "./components/Gallery";
 
 function App() {
   const scrollToTop = () => {
@@ -21,16 +22,7 @@ function App() {
       <Header />
       <main>
         <Services />
-        <section className="Photo-gallery" id="gallery">
-          <section className="Photos">
-            <img src={project1} className="Project-photo" alt="project-photo" />
-            <img src={project2} className="Project-photo" alt="project-photo" />
-            <img src={project3} className="Project-photo" alt="project-photo" />
-            <img src={project4} className="Project-photo" alt="project-photo" />
-            <img src={project5} className="Project-photo" alt="project-photo" />
-            <img src={project6} className="Project-photo" alt="project-photo" />
-          </section>
-        </section>
+        <Gallery />
         <footer>
           {/* <div>
             <a href="">
