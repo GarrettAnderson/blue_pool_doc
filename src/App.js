@@ -10,33 +10,16 @@ import "./App.css";
 import "./assets/styles/HamburgerMenu.css";
 import Services from "./components/Services";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
-  const scrollToTop = () => {
-    console.log("scroll to top");
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  };
-
   return (
     <div className="App">
       <Header />
       <main>
         <Services />
         <Gallery />
-        <footer>
-          {/* <div>
-            <a href="">
-              <img
-                src={project1}
-                className="Facebook-icon"
-                alt="facebook-icon"
-              />
-            </a>
-          </div> */}
-          <div>
-            <p onClick={scrollToTop}>Back to Top</p>
-          </div>
-        </footer>
+        <Footer />
       </main>
     </div>
   );
