@@ -147,9 +147,9 @@
 
 .Photo-gallery {
   background-image: url("./assets/images/cia-gould-ripples-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
+  background-repeat: repeat;
+  /* background-position: 50% 50%;
+  background-size: cover; */
 }
 
 .Photos {
